@@ -1,0 +1,798 @@
+Member-1-Generation-29
+S11     S22     S12
+
+MaxStressData =
+
+  526.3000   22.0600   14.4000
+  451.8000   18.4000   15.4600
+  542.7000   22.2500   19.2300
+  460.6000   18.2900   20.9500
+
+S11     S22     S12
+
+MinStressData =
+
+ -155.3000   -6.6630  -14.4000
+ -448.2000  -18.1000  -15.6600
+ -113.2000    2.3890  -18.3600
+ -459.9000  -14.8100  -21.0600
+
+***********************************************************************************
+G29ID00028000001079A3388A10813440000
+***********************************************************************************
+************************FAILURE LIMITS*********************************************
+Failure(STR) S11 max= 2320 ----  Allowed S11 Max (Tensile)    = 1160 ------> Model S11 Max (Tensile)    = 542.7 ------>>  [  OK  ]      max value from loadcase=  3 >>> Effort = 0.23392 <<<<
+Failure(STR) S11 min= -981 ----  Allowed S11 Min (Compressive)= -490.5 ------> Model S11 Min (Compressive)= -459.9 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.46881 <<<<
+Failure(STR) S22 max= 49 ----  Allowed S22 Max (Tensile)    = 24.5 ------> Model S22 Max (Tensile)    = 22.25 ------>>   [  OK  ]     max value from loadcase=  3 >>> Effort = 0.45408 <<<<
+Failure(STR) S22 min= -160 ----  Allowed S22 Min (Compressive)= -80 ------> Model S22 Min (Compressive)= -18.1 ------>>   [  OK  ]     min value from loadcase=  2 >>> Effort = 0.11313 <<<<
+Failure(STR) S12 max= 67 ----  Allowed S12 Max (Tensile)    = 33.5 ------> Model S12 Max (Tensile)    = 20.95 ------>>   [  OK  ]     max value from loadcase=  4 >>> Effort = 0.31269 <<<<
+Failure(STR) S12 min= -67 ----  Allowed S12 Min (Compressive)= -33.5 ------> Model S12 Min (Compressive)= -21.06 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.31433 <<<<
+*********************************************************************
+************************MEMBER OUTPUT*********************************************
+eigenPerformanceError=1.6686
+materialRelativeDifferenceError=0
+s11Error= 6.2538e-08
+s22Error= 2.5168e-14
+s12Error= 5.0907e-75
+objectiveVal= 1.6686
+*********************************************************************
+Load case 1 effort:     S11        S22       S12 
+   tensile:           0.22685      0.4502     0.21493
+   compressive:       0.15831    0.041644     0.21493
+Load case 2 effort:     S11        S22       S12 
+   tensile:           0.19474     0.37551     0.23075
+   compressive:       0.45688     0.11313     0.23373
+Load case 3 effort:     S11        S22       S12 
+   tensile:           0.23392     0.45408     0.28701
+   compressive:       0.11539    0.048755     0.27403
+Load case 4 effort:     S11        S22       S12 
+   tensile:           0.19853     0.37327     0.31269
+   compressive:       0.46881    0.092563     0.31433
+***********************************************************************************
+D00028000001079A3388A10813440000
+***********************************************************************************
+Member-2-Generation-29
+S11     S22     S12
+
+MaxStressData =
+
+  528.9000   22.1600   14.6100
+  452.0000   18.4100   15.5000
+  542.7000   22.2500   19.2800
+  460.0000   18.2900   20.7900
+
+S11     S22     S12
+
+MinStressData =
+
+ -155.5000   -6.6720  -14.6200
+ -448.2000  -18.1000  -15.6700
+ -113.2000    2.3900  -18.3500
+ -459.7000  -14.8000  -21.1100
+
+***********************************************************************************
+G29ID00028000001079A3881A10813440000
+***********************************************************************************
+************************FAILURE LIMITS*********************************************
+Failure(STR) S11 max= 2320 ----  Allowed S11 Max (Tensile)    = 1160 ------> Model S11 Max (Tensile)    = 542.7 ------>>  [  OK  ]      max value from loadcase=  3 >>> Effort = 0.23392 <<<<
+Failure(STR) S11 min= -981 ----  Allowed S11 Min (Compressive)= -490.5 ------> Model S11 Min (Compressive)= -459.7 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.4686 <<<<
+Failure(STR) S22 max= 49 ----  Allowed S22 Max (Tensile)    = 24.5 ------> Model S22 Max (Tensile)    = 22.25 ------>>   [  OK  ]     max value from loadcase=  3 >>> Effort = 0.45408 <<<<
+Failure(STR) S22 min= -160 ----  Allowed S22 Min (Compressive)= -80 ------> Model S22 Min (Compressive)= -18.1 ------>>   [  OK  ]     min value from loadcase=  2 >>> Effort = 0.11313 <<<<
+Failure(STR) S12 max= 67 ----  Allowed S12 Max (Tensile)    = 33.5 ------> Model S12 Max (Tensile)    = 20.79 ------>>   [  OK  ]     max value from loadcase=  4 >>> Effort = 0.3103 <<<<
+Failure(STR) S12 min= -67 ----  Allowed S12 Min (Compressive)= -33.5 ------> Model S12 Min (Compressive)= -21.11 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.31507 <<<<
+*********************************************************************
+************************MEMBER OUTPUT*********************************************
+eigenPerformanceError=1.5225
+materialRelativeDifferenceError=6.4394
+s11Error= 5.1004e-08
+s22Error= 2.5168e-14
+s12Error= 1.0737e-74
+objectiveVal= 6.6169
+*********************************************************************
+Load case 1 effort:     S11        S22       S12 
+   tensile:           0.22797     0.45224     0.21806
+   compressive:       0.15851      0.0417     0.21821
+Load case 2 effort:     S11        S22       S12 
+   tensile:           0.19483     0.37571     0.23134
+   compressive:       0.45688     0.11313     0.23388
+Load case 3 effort:     S11        S22       S12 
+   tensile:           0.23392     0.45408     0.28776
+   compressive:       0.11539    0.048776     0.27388
+Load case 4 effort:     S11        S22       S12 
+   tensile:           0.19828     0.37327      0.3103
+   compressive:       0.4686      0.0925     0.31507
+***********************************************************************************
+D00028000001079A3881A10813440000
+***********************************************************************************
+Member-3-Generation-29
+S11     S22     S12
+
+MaxStressData =
+
+  528.9000   22.1600   14.6100
+  452.0000   18.4100   15.5000
+  542.6000   22.2400   19.2800
+  460.4000   18.2100   20.7700
+
+S11     S22     S12
+
+MinStressData =
+
+ -155.5000   -6.6710  -14.6200
+ -448.2000  -18.1000  -15.6700
+ -113.2000    2.3900  -18.3500
+ -460.1000  -14.7900  -21.1100
+
+***********************************************************************************
+G29ID00028000001079A6981201813440000
+***********************************************************************************
+************************FAILURE LIMITS*********************************************
+Failure(STR) S11 max= 2320 ----  Allowed S11 Max (Tensile)    = 1160 ------> Model S11 Max (Tensile)    = 542.6 ------>>  [  OK  ]      max value from loadcase=  3 >>> Effort = 0.23388 <<<<
+Failure(STR) S11 min= -981 ----  Allowed S11 Min (Compressive)= -490.5 ------> Model S11 Min (Compressive)= -460.1 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.46901 <<<<
+Failure(STR) S22 max= 49 ----  Allowed S22 Max (Tensile)    = 24.5 ------> Model S22 Max (Tensile)    = 22.24 ------>>   [  OK  ]     max value from loadcase=  3 >>> Effort = 0.45388 <<<<
+Failure(STR) S22 min= -160 ----  Allowed S22 Min (Compressive)= -80 ------> Model S22 Min (Compressive)= -18.1 ------>>   [  OK  ]     min value from loadcase=  2 >>> Effort = 0.11313 <<<<
+Failure(STR) S12 max= 67 ----  Allowed S12 Max (Tensile)    = 33.5 ------> Model S12 Max (Tensile)    = 20.77 ------>>   [  OK  ]     max value from loadcase=  4 >>> Effort = 0.31 <<<<
+Failure(STR) S12 min= -67 ----  Allowed S12 Min (Compressive)= -33.5 ------> Model S12 Min (Compressive)= -21.11 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.31507 <<<<
+*********************************************************************
+************************MEMBER OUTPUT*********************************************
+eigenPerformanceError=1.6078
+materialRelativeDifferenceError=1.7519
+s11Error= 7.6681e-08
+s22Error= 2.0522e-14
+s12Error= 1.0737e-74
+objectiveVal= 2.3779
+*********************************************************************
+Load case 1 effort:     S11        S22       S12 
+   tensile:           0.22797     0.45224     0.21806
+   compressive:       0.15851    0.041694     0.21821
+Load case 2 effort:     S11        S22       S12 
+   tensile:           0.19483     0.37571     0.23134
+   compressive:       0.45688     0.11313     0.23388
+Load case 3 effort:     S11        S22       S12 
+   tensile:           0.23388     0.45388     0.28776
+   compressive:       0.11539    0.048776     0.27388
+Load case 4 effort:     S11        S22       S12 
+   tensile:           0.19845     0.37163        0.31
+   compressive:       0.46901    0.092437     0.31507
+***********************************************************************************
+D00028000001079A6981201813440000
+***********************************************************************************
+Member-4-Generation-29
+S11     S22     S12
+
+MaxStressData =
+
+  526.3000   22.0600   14.4000
+  451.8000   18.4000   15.4600
+  542.6000   22.2400   19.2300
+  460.4000   18.2100   20.9500
+
+S11     S22     S12
+
+MinStressData =
+
+ -155.3000   -6.6630  -14.4000
+ -448.2000  -18.1000  -15.6600
+ -113.2000    2.3890  -18.3600
+ -460.2000  -14.7900  -21.0600
+
+***********************************************************************************
+G29ID00028000001079A7188200813440000
+***********************************************************************************
+************************FAILURE LIMITS*********************************************
+Failure(STR) S11 max= 2320 ----  Allowed S11 Max (Tensile)    = 1160 ------> Model S11 Max (Tensile)    = 542.6 ------>>  [  OK  ]      max value from loadcase=  3 >>> Effort = 0.23388 <<<<
+Failure(STR) S11 min= -981 ----  Allowed S11 Min (Compressive)= -490.5 ------> Model S11 Min (Compressive)= -460.2 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.46911 <<<<
+Failure(STR) S22 max= 49 ----  Allowed S22 Max (Tensile)    = 24.5 ------> Model S22 Max (Tensile)    = 22.24 ------>>   [  OK  ]     max value from loadcase=  3 >>> Effort = 0.45388 <<<<
+Failure(STR) S22 min= -160 ----  Allowed S22 Min (Compressive)= -80 ------> Model S22 Min (Compressive)= -18.1 ------>>   [  OK  ]     min value from loadcase=  2 >>> Effort = 0.11313 <<<<
+Failure(STR) S12 max= 67 ----  Allowed S12 Max (Tensile)    = 33.5 ------> Model S12 Max (Tensile)    = 20.95 ------>>   [  OK  ]     max value from loadcase=  4 >>> Effort = 0.31269 <<<<
+Failure(STR) S12 min= -67 ----  Allowed S12 Min (Compressive)= -33.5 ------> Model S12 Min (Compressive)= -21.06 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.31433 <<<<
+*********************************************************************
+************************MEMBER OUTPUT*********************************************
+eigenPerformanceError=1.6327
+materialRelativeDifferenceError=1.2311
+s11Error= 8.4909e-08
+s22Error= 2.0522e-14
+s12Error= 5.0907e-75
+objectiveVal= 2.0448
+*********************************************************************
+Load case 1 effort:     S11        S22       S12 
+   tensile:           0.22685      0.4502     0.21493
+   compressive:       0.15831    0.041644     0.21493
+Load case 2 effort:     S11        S22       S12 
+   tensile:           0.19474     0.37551     0.23075
+   compressive:       0.45688     0.11313     0.23373
+Load case 3 effort:     S11        S22       S12 
+   tensile:           0.23388     0.45388     0.28701
+   compressive:       0.11539    0.048755     0.27403
+Load case 4 effort:     S11        S22       S12 
+   tensile:           0.19845     0.37163     0.31269
+   compressive:       0.46911    0.092437     0.31433
+***********************************************************************************
+D00028000001079A7188200813440000
+***********************************************************************************
+Member-5-Generation-29
+S11     S22     S12
+
+MaxStressData =
+
+  526.3000   22.0600   14.4000
+  451.7000   18.4000   15.4600
+  542.7000   22.2500   19.2400
+  460.1000   18.2900   20.7900
+
+S11     S22     S12
+
+MinStressData =
+
+ -155.3000   -6.6650  -14.4000
+ -448.1000  -18.0900  -15.6600
+ -113.2000    2.3900  -18.3500
+ -459.7000  -14.8000  -21.1100
+
+***********************************************************************************
+G29ID00028000001079AF880A10813440000
+***********************************************************************************
+************************FAILURE LIMITS*********************************************
+Failure(STR) S11 max= 2320 ----  Allowed S11 Max (Tensile)    = 1160 ------> Model S11 Max (Tensile)    = 542.7 ------>>  [  OK  ]      max value from loadcase=  3 >>> Effort = 0.23392 <<<<
+Failure(STR) S11 min= -981 ----  Allowed S11 Min (Compressive)= -490.5 ------> Model S11 Min (Compressive)= -459.7 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.4686 <<<<
+Failure(STR) S22 max= 49 ----  Allowed S22 Max (Tensile)    = 24.5 ------> Model S22 Max (Tensile)    = 22.25 ------>>   [  OK  ]     max value from loadcase=  3 >>> Effort = 0.45408 <<<<
+Failure(STR) S22 min= -160 ----  Allowed S22 Min (Compressive)= -80 ------> Model S22 Min (Compressive)= -18.09 ------>>   [  OK  ]     min value from loadcase=  2 >>> Effort = 0.11306 <<<<
+Failure(STR) S12 max= 67 ----  Allowed S12 Max (Tensile)    = 33.5 ------> Model S12 Max (Tensile)    = 20.79 ------>>   [  OK  ]     max value from loadcase=  4 >>> Effort = 0.3103 <<<<
+Failure(STR) S12 min= -67 ----  Allowed S12 Min (Compressive)= -33.5 ------> Model S12 Min (Compressive)= -21.11 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.31507 <<<<
+*********************************************************************
+************************MEMBER OUTPUT*********************************************
+eigenPerformanceError=1.5879
+materialRelativeDifferenceError=0
+s11Error= 5.1004e-08
+s22Error= 2.5168e-14
+s12Error= 1.0737e-74
+objectiveVal= 1.5879
+*********************************************************************
+Load case 1 effort:     S11        S22       S12 
+   tensile:           0.22685      0.4502     0.21493
+   compressive:       0.15831    0.041656     0.21493
+Load case 2 effort:     S11        S22       S12 
+   tensile:           0.1947     0.37551     0.23075
+   compressive:       0.45678     0.11306     0.23373
+Load case 3 effort:     S11        S22       S12 
+   tensile:           0.23392     0.45408     0.28716
+   compressive:       0.11539    0.048776     0.27388
+Load case 4 effort:     S11        S22       S12 
+   tensile:           0.19832     0.37327      0.3103
+   compressive:       0.4686      0.0925     0.31507
+***********************************************************************************
+D00028000001079AF880A10813440000
+***********************************************************************************
+Member-6-Generation-29
+S11     S22     S12
+
+MaxStressData =
+
+  528.9000   22.1600   14.6100
+  452.0000   18.4100   15.5000
+  542.7000   22.2500   19.2800
+  460.0000   18.2900   20.7900
+
+S11     S22     S12
+
+MinStressData =
+
+ -155.5000   -6.6720  -14.6200
+ -448.2000  -18.1000  -15.6700
+ -113.2000    2.3900  -18.3500
+ -459.7000  -14.8000  -21.1100
+
+***********************************************************************************
+G29ID00028000001079AF881A00813440000
+***********************************************************************************
+************************FAILURE LIMITS*********************************************
+Failure(STR) S11 max= 2320 ----  Allowed S11 Max (Tensile)    = 1160 ------> Model S11 Max (Tensile)    = 542.7 ------>>  [  OK  ]      max value from loadcase=  3 >>> Effort = 0.23392 <<<<
+Failure(STR) S11 min= -981 ----  Allowed S11 Min (Compressive)= -490.5 ------> Model S11 Min (Compressive)= -459.7 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.4686 <<<<
+Failure(STR) S22 max= 49 ----  Allowed S22 Max (Tensile)    = 24.5 ------> Model S22 Max (Tensile)    = 22.25 ------>>   [  OK  ]     max value from loadcase=  3 >>> Effort = 0.45408 <<<<
+Failure(STR) S22 min= -160 ----  Allowed S22 Min (Compressive)= -80 ------> Model S22 Min (Compressive)= -18.1 ------>>   [  OK  ]     min value from loadcase=  2 >>> Effort = 0.11313 <<<<
+Failure(STR) S12 max= 67 ----  Allowed S12 Max (Tensile)    = 33.5 ------> Model S12 Max (Tensile)    = 20.79 ------>>   [  OK  ]     max value from loadcase=  4 >>> Effort = 0.3103 <<<<
+Failure(STR) S12 min= -67 ----  Allowed S12 Min (Compressive)= -33.5 ------> Model S12 Min (Compressive)= -21.11 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.31507 <<<<
+*********************************************************************
+************************MEMBER OUTPUT*********************************************
+eigenPerformanceError=1.6396
+materialRelativeDifferenceError=0
+s11Error= 5.1004e-08
+s22Error= 2.5168e-14
+s12Error= 1.0737e-74
+objectiveVal= 1.6396
+*********************************************************************
+Load case 1 effort:     S11        S22       S12 
+   tensile:           0.22797     0.45224     0.21806
+   compressive:       0.15851      0.0417     0.21821
+Load case 2 effort:     S11        S22       S12 
+   tensile:           0.19483     0.37571     0.23134
+   compressive:       0.45688     0.11313     0.23388
+Load case 3 effort:     S11        S22       S12 
+   tensile:           0.23392     0.45408     0.28776
+   compressive:       0.11539    0.048776     0.27388
+Load case 4 effort:     S11        S22       S12 
+   tensile:           0.19828     0.37327      0.3103
+   compressive:       0.4686      0.0925     0.31507
+***********************************************************************************
+D00028000001079AF881A00813440000
+***********************************************************************************
+Member-7-Generation-29
+S11     S22     S12
+
+MaxStressData =
+
+  528.9000   22.1600   14.6100
+  452.0000   18.4100   15.5000
+  542.7000   22.2500   19.2800
+  460.4000   18.2900   20.7700
+
+S11     S22     S12
+
+MinStressData =
+
+ -155.5000   -6.6710  -14.6200
+ -448.2000  -18.1000  -15.6700
+ -113.2000    2.3870  -18.3500
+ -460.1000  -14.7900  -21.1100
+
+***********************************************************************************
+G29ID0002800000107BAE981A00813440000
+***********************************************************************************
+************************FAILURE LIMITS*********************************************
+Failure(STR) S11 max= 2320 ----  Allowed S11 Max (Tensile)    = 1160 ------> Model S11 Max (Tensile)    = 542.7 ------>>  [  OK  ]      max value from loadcase=  3 >>> Effort = 0.23392 <<<<
+Failure(STR) S11 min= -981 ----  Allowed S11 Min (Compressive)= -490.5 ------> Model S11 Min (Compressive)= -460.1 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.46901 <<<<
+Failure(STR) S22 max= 49 ----  Allowed S22 Max (Tensile)    = 24.5 ------> Model S22 Max (Tensile)    = 22.25 ------>>   [  OK  ]     max value from loadcase=  3 >>> Effort = 0.45408 <<<<
+Failure(STR) S22 min= -160 ----  Allowed S22 Min (Compressive)= -80 ------> Model S22 Min (Compressive)= -18.1 ------>>   [  OK  ]     min value from loadcase=  2 >>> Effort = 0.11313 <<<<
+Failure(STR) S12 max= 67 ----  Allowed S12 Max (Tensile)    = 33.5 ------> Model S12 Max (Tensile)    = 20.77 ------>>   [  OK  ]     max value from loadcase=  4 >>> Effort = 0.31 <<<<
+Failure(STR) S12 min= -67 ----  Allowed S12 Min (Compressive)= -33.5 ------> Model S12 Min (Compressive)= -21.11 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.31507 <<<<
+*********************************************************************
+************************MEMBER OUTPUT*********************************************
+eigenPerformanceError=1.7
+materialRelativeDifferenceError=0
+s11Error= 7.6681e-08
+s22Error= 2.5168e-14
+s12Error= 1.0737e-74
+objectiveVal= 1.7
+*********************************************************************
+Load case 1 effort:     S11        S22       S12 
+   tensile:           0.22797     0.45224     0.21806
+   compressive:       0.15851    0.041694     0.21821
+Load case 2 effort:     S11        S22       S12 
+   tensile:           0.19483     0.37571     0.23134
+   compressive:       0.45688     0.11313     0.23388
+Load case 3 effort:     S11        S22       S12 
+   tensile:           0.23392     0.45408     0.28776
+   compressive:       0.11539    0.048714     0.27388
+Load case 4 effort:     S11        S22       S12 
+   tensile:           0.19845     0.37327        0.31
+   compressive:       0.46901    0.092437     0.31507
+***********************************************************************************
+D0002800000107BAE981A00813440000
+***********************************************************************************
+Member-8-Generation-29
+S11     S22     S12
+
+MaxStressData =
+
+  528.9000   22.1600   14.6100
+  452.1000   18.4100   15.4900
+  547.5000   22.5300   19.2700
+  462.5000   19.6500   20.9500
+
+S11     S22     S12
+
+MinStressData =
+
+ -155.5000   -6.6700  -14.6200
+ -448.3000  -18.1000  -15.6800
+ -113.2000    2.3890  -18.4500
+ -470.5000  -14.7900  -21.0600
+
+***********************************************************************************
+G29ID0002802000107927989210813440000
+***********************************************************************************
+************************FAILURE LIMITS*********************************************
+Failure(STR) S11 max= 2320 ----  Allowed S11 Max (Tensile)    = 1160 ------> Model S11 Max (Tensile)    = 547.5 ------>>  [  OK  ]      max value from loadcase=  3 >>> Effort = 0.23599 <<<<
+Failure(STR) S11 min= -981 ----  Allowed S11 Min (Compressive)= -490.5 ------> Model S11 Min (Compressive)= -470.5 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.47961 <<<<
+Failure(STR) S22 max= 49 ----  Allowed S22 Max (Tensile)    = 24.5 ------> Model S22 Max (Tensile)    = 22.53 ------>>   [  OK  ]     max value from loadcase=  3 >>> Effort = 0.4598 <<<<
+Failure(STR) S22 min= -160 ----  Allowed S22 Min (Compressive)= -80 ------> Model S22 Min (Compressive)= -18.1 ------>>   [  OK  ]     min value from loadcase=  2 >>> Effort = 0.11313 <<<<
+Failure(STR) S12 max= 67 ----  Allowed S12 Max (Tensile)    = 33.5 ------> Model S12 Max (Tensile)    = 20.95 ------>>   [  OK  ]     max value from loadcase=  4 >>> Effort = 0.31269 <<<<
+Failure(STR) S12 min= -67 ----  Allowed S12 Min (Compressive)= -33.5 ------> Model S12 Min (Compressive)= -21.06 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.31433 <<<<
+*********************************************************************
+************************MEMBER OUTPUT*********************************************
+eigenPerformanceError=1.7887
+materialRelativeDifferenceError=0
+s11Error= 0.0030819
+s22Error= 7.6302e-12
+s12Error= 5.0907e-75
+objectiveVal= 1.7887
+*********************************************************************
+Load case 1 effort:     S11        S22       S12 
+   tensile:           0.22797     0.45224     0.21806
+   compressive:       0.15851    0.041688     0.21821
+Load case 2 effort:     S11        S22       S12 
+   tensile:           0.19487     0.37571     0.23119
+   compressive:       0.45698     0.11313     0.23403
+Load case 3 effort:     S11        S22       S12 
+   tensile:           0.23599      0.4598     0.28761
+   compressive:       0.11539    0.048755     0.27537
+Load case 4 effort:     S11        S22       S12 
+   tensile:           0.19935     0.40102     0.31269
+   compressive:       0.47961    0.092437     0.31433
+***********************************************************************************
+D0002802000107927989210813440000
+***********************************************************************************
+Member-9-Generation-29
+S11     S22     S12
+
+MaxStressData =
+
+  533.8000   22.3900   14.6100
+  451.8000   18.4000   15.4600
+  546.5000   22.4900   19.2300
+  462.6000   19.7400   20.7800
+
+S11     S22     S12
+
+MinStressData =
+
+ -155.3000   -6.6820  -14.6100
+ -448.4000  -18.1100  -15.6500
+ -113.3000    2.3900  -18.4200
+ -470.4000  -14.7900  -21.0900
+
+***********************************************************************************
+G29ID000280200010F9AF980A00813440100
+***********************************************************************************
+************************FAILURE LIMITS*********************************************
+Failure(STR) S11 max= 2320 ----  Allowed S11 Max (Tensile)    = 1160 ------> Model S11 Max (Tensile)    = 546.5 ------>>  [  OK  ]      max value from loadcase=  3 >>> Effort = 0.23556 <<<<
+Failure(STR) S11 min= -981 ----  Allowed S11 Min (Compressive)= -490.5 ------> Model S11 Min (Compressive)= -470.4 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.47951 <<<<
+Failure(STR) S22 max= 49 ----  Allowed S22 Max (Tensile)    = 24.5 ------> Model S22 Max (Tensile)    = 22.49 ------>>   [  OK  ]     max value from loadcase=  3 >>> Effort = 0.45898 <<<<
+Failure(STR) S22 min= -160 ----  Allowed S22 Min (Compressive)= -80 ------> Model S22 Min (Compressive)= -18.11 ------>>   [  OK  ]     min value from loadcase=  2 >>> Effort = 0.11319 <<<<
+Failure(STR) S12 max= 67 ----  Allowed S12 Max (Tensile)    = 33.5 ------> Model S12 Max (Tensile)    = 20.78 ------>>   [  OK  ]     max value from loadcase=  4 >>> Effort = 0.31015 <<<<
+Failure(STR) S12 min= -67 ----  Allowed S12 Min (Compressive)= -33.5 ------> Model S12 Min (Compressive)= -21.09 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.31478 <<<<
+*********************************************************************
+************************MEMBER OUTPUT*********************************************
+eigenPerformanceError=2.1412
+materialRelativeDifferenceError=0
+s11Error= 0.0027832
+s22Error= 3.3729e-12
+s12Error= 7.9659e-75
+objectiveVal= 2.1412
+*********************************************************************
+Load case 1 effort:     S11        S22       S12 
+   tensile:           0.23009     0.45694     0.21806
+   compressive:       0.15831    0.041763     0.21806
+Load case 2 effort:     S11        S22       S12 
+   tensile:           0.19474     0.37551     0.23075
+   compressive:       0.45708     0.11319     0.23358
+Load case 3 effort:     S11        S22       S12 
+   tensile:           0.23556     0.45898     0.28701
+   compressive:       0.11549    0.048776     0.27493
+Load case 4 effort:     S11        S22       S12 
+   tensile:           0.1994     0.40286     0.31015
+   compressive:       0.47951    0.092437     0.31478
+***********************************************************************************
+D000280200010F9AF980A00813440100
+***********************************************************************************
+Member-10-Generation-29
+S11     S22     S12
+
+MaxStressData =
+
+  552.5000   23.1000   15.3500
+  460.2000   18.7500   15.7000
+  548.1000   22.4600   19.6300
+  480.8000   19.0100   22.9200
+
+S11     S22     S12
+
+MinStressData =
+
+ -159.0000   -6.8350  -15.0300
+ -455.1000  -18.4000  -15.9900
+ -115.4000    2.4220  -18.8300
+ -479.2000  -15.8900  -23.0700
+
+***********************************************************************************
+G29ID00A8ED51D75A04048BD2A02341E8021
+***********************************************************************************
+************************FAILURE LIMITS*********************************************
+Failure(STR) S11 max= 2320 ----  Allowed S11 Max (Tensile)    = 1160 ------> Model S11 Max (Tensile)    = 552.5 ------>>  [  OK  ]      max value from loadcase=  1 >>> Effort = 0.23815 <<<<
+Failure(STR) S11 min= -981 ----  Allowed S11 Min (Compressive)= -490.5 ------> Model S11 Min (Compressive)= -479.2 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.48848 <<<<
+Failure(STR) S22 max= 49 ----  Allowed S22 Max (Tensile)    = 24.5 ------> Model S22 Max (Tensile)    = 23.1 ------>>   [  OK  ]     max value from loadcase=  1 >>> Effort = 0.47143 <<<<
+Failure(STR) S22 min= -160 ----  Allowed S22 Min (Compressive)= -80 ------> Model S22 Min (Compressive)= -18.4 ------>>   [  OK  ]     min value from loadcase=  2 >>> Effort = 0.115 <<<<
+Failure(STR) S12 max= 67 ----  Allowed S12 Max (Tensile)    = 33.5 ------> Model S12 Max (Tensile)    = 22.92 ------>>   [  OK  ]     max value from loadcase=  4 >>> Effort = 0.34209 <<<<
+Failure(STR) S12 min= -67 ----  Allowed S12 Min (Compressive)= -33.5 ------> Model S12 Min (Compressive)= -23.07 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.34433 <<<<
+*********************************************************************
+************************MEMBER OUTPUT*********************************************
+eigenPerformanceError=6.1747
+materialRelativeDifferenceError=0
+s11Error= 17.963
+s22Error= 8.6006e-07
+s12Error= 5.4401e-62
+objectiveVal= 18.9946
+*********************************************************************
+Load case 1 effort:     S11        S22       S12 
+   tensile:           0.23815     0.47143      0.2291
+   compressive:       0.16208    0.042719     0.22433
+Load case 2 effort:     S11        S22       S12 
+   tensile:           0.19836     0.38265     0.23433
+   compressive:       0.46391       0.115     0.23866
+Load case 3 effort:     S11        S22       S12 
+   tensile:           0.23625     0.45837     0.29299
+   compressive:       0.11764    0.049429     0.28104
+Load case 4 effort:     S11        S22       S12 
+   tensile:           0.20724     0.38796     0.34209
+   compressive:       0.48848    0.099312     0.34433
+***********************************************************************************
+D00A8ED51D75A04048BD2A02341E8021
+***********************************************************************************
+Member-11-Generation-29
+S11     S22     S12
+
+MaxStressData =
+
+  530.8000   22.2200   14.6200
+  454.0000   18.5100   15.5200
+  549.0000   22.5900   19.3400
+  462.1000   19.6500   21.6900
+
+S11     S22     S12
+
+MinStressData =
+
+ -156.4000   -6.7010  -14.6200
+ -450.6000  -18.2000  -15.8000
+ -114.2000    2.3890  -18.6000
+ -474.3000  -15.2200  -22.3600
+
+***********************************************************************************
+G29ID0110086002297905002001003080800
+***********************************************************************************
+************************FAILURE LIMITS*********************************************
+Failure(STR) S11 max= 2320 ----  Allowed S11 Max (Tensile)    = 1160 ------> Model S11 Max (Tensile)    = 549 ------>>  [  OK  ]      max value from loadcase=  3 >>> Effort = 0.23664 <<<<
+Failure(STR) S11 min= -981 ----  Allowed S11 Min (Compressive)= -490.5 ------> Model S11 Min (Compressive)= -474.3 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.48349 <<<<
+Failure(STR) S22 max= 49 ----  Allowed S22 Max (Tensile)    = 24.5 ------> Model S22 Max (Tensile)    = 22.59 ------>>   [  OK  ]     max value from loadcase=  3 >>> Effort = 0.46102 <<<<
+Failure(STR) S22 min= -160 ----  Allowed S22 Min (Compressive)= -80 ------> Model S22 Min (Compressive)= -18.2 ------>>   [  OK  ]     min value from loadcase=  2 >>> Effort = 0.11375 <<<<
+Failure(STR) S12 max= 67 ----  Allowed S12 Max (Tensile)    = 33.5 ------> Model S12 Max (Tensile)    = 21.69 ------>>   [  OK  ]     max value from loadcase=  4 >>> Effort = 0.32373 <<<<
+Failure(STR) S12 min= -67 ----  Allowed S12 Min (Compressive)= -33.5 ------> Model S12 Min (Compressive)= -22.36 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.33373 <<<<
+*********************************************************************
+************************MEMBER OUTPUT*********************************************
+eigenPerformanceError=2.2088
+materialRelativeDifferenceError=24.9645
+s11Error= 0.14807
+s22Error= 2.5961e-11
+s12Error= 1.3595e-66
+objectiveVal= 25.0625
+*********************************************************************
+Load case 1 effort:     S11        S22       S12 
+   tensile:           0.22879     0.45347     0.21821
+   compressive:       0.15943    0.041881     0.21821
+Load case 2 effort:     S11        S22       S12 
+   tensile:           0.19569     0.37776     0.23164
+   compressive:       0.45933     0.11375     0.23582
+Load case 3 effort:     S11        S22       S12 
+   tensile:           0.23664     0.46102     0.28866
+   compressive:       0.11641    0.048755     0.27761
+Load case 4 effort:     S11        S22       S12 
+   tensile:           0.19918     0.40102     0.32373
+   compressive:       0.48349    0.095125     0.33373
+***********************************************************************************
+D0110086002297905002001003080800
+***********************************************************************************
+Member-12-Generation-29
+S11     S22     S12
+
+MaxStressData =
+
+  526.3000   22.0600   14.4000
+  453.4000   18.4700   15.5100
+  543.3000   22.2800   19.2100
+  465.2000   18.3300   20.9500
+
+S11     S22     S12
+
+MinStressData =
+
+ -155.9000   -6.6850  -14.4000
+ -448.5000  -18.1100  -15.6700
+ -113.0000    2.4030  -18.4500
+ -460.2000  -14.7900  -21.0600
+
+***********************************************************************************
+G29ID04028000001079A3188210813450000
+***********************************************************************************
+************************FAILURE LIMITS*********************************************
+Failure(STR) S11 max= 2320 ----  Allowed S11 Max (Tensile)    = 1160 ------> Model S11 Max (Tensile)    = 543.3 ------>>  [  OK  ]      max value from loadcase=  3 >>> Effort = 0.23418 <<<<
+Failure(STR) S11 min= -981 ----  Allowed S11 Min (Compressive)= -490.5 ------> Model S11 Min (Compressive)= -460.2 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.46911 <<<<
+Failure(STR) S22 max= 49 ----  Allowed S22 Max (Tensile)    = 24.5 ------> Model S22 Max (Tensile)    = 22.28 ------>>   [  OK  ]     max value from loadcase=  3 >>> Effort = 0.45469 <<<<
+Failure(STR) S22 min= -160 ----  Allowed S22 Min (Compressive)= -80 ------> Model S22 Min (Compressive)= -18.11 ------>>   [  OK  ]     min value from loadcase=  2 >>> Effort = 0.11319 <<<<
+Failure(STR) S12 max= 67 ----  Allowed S12 Max (Tensile)    = 33.5 ------> Model S12 Max (Tensile)    = 20.95 ------>>   [  OK  ]     max value from loadcase=  4 >>> Effort = 0.31269 <<<<
+Failure(STR) S12 min= -67 ----  Allowed S12 Min (Compressive)= -33.5 ------> Model S12 Min (Compressive)= -21.06 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.31433 <<<<
+*********************************************************************
+************************MEMBER OUTPUT*********************************************
+eigenPerformanceError=1.6107
+materialRelativeDifferenceError=2.9711
+s11Error= 8.4909e-08
+s22Error= 4.6424e-14
+s12Error= 5.0907e-75
+objectiveVal= 3.3796
+*********************************************************************
+Load case 1 effort:     S11        S22       S12 
+   tensile:           0.22685      0.4502     0.21493
+   compressive:       0.15892    0.041781     0.21493
+Load case 2 effort:     S11        S22       S12 
+   tensile:           0.19543     0.37694     0.23149
+   compressive:       0.45719     0.11319     0.23388
+Load case 3 effort:     S11        S22       S12 
+   tensile:           0.23418     0.45469     0.28672
+   compressive:       0.11519    0.049041     0.27537
+Load case 4 effort:     S11        S22       S12 
+   tensile:           0.20052     0.37408     0.31269
+   compressive:       0.46911    0.092437     0.31433
+***********************************************************************************
+D04028000001079A3188210813450000
+***********************************************************************************
+Member-13-Generation-29
+S11     S22     S12
+
+MaxStressData =
+
+  569.9000   23.8300   15.3000
+  458.9000   18.7000   15.6200
+  551.6000   22.5000   19.5900
+  473.3000   19.3300   22.4200
+
+S11     S22     S12
+
+MinStressData =
+
+ -157.3000   -6.7810  -15.3300
+ -454.0000  -18.3300  -15.8500
+ -115.7000    2.4170  -18.4700
+ -487.4000  -15.7600  -23.1400
+
+***********************************************************************************
+G29ID0C00B4F0F86A10B218050E63E570D3C
+***********************************************************************************
+************************FAILURE LIMITS*********************************************
+Failure(STR) S11 max= 2320 ----  Allowed S11 Max (Tensile)    = 1160 ------> Model S11 Max (Tensile)    = 569.9 ------>>  [  OK  ]      max value from loadcase=  1 >>> Effort = 0.24565 <<<<
+Failure(STR) S11 min= -981 ----  Allowed S11 Min (Compressive)= -490.5 ------> Model S11 Min (Compressive)= -487.4 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.49684 <<<<
+Failure(STR) S22 max= 49 ----  Allowed S22 Max (Tensile)    = 24.5 ------> Model S22 Max (Tensile)    = 23.83 ------>>   [  OK  ]     max value from loadcase=  1 >>> Effort = 0.48633 <<<<
+Failure(STR) S22 min= -160 ----  Allowed S22 Min (Compressive)= -80 ------> Model S22 Min (Compressive)= -18.33 ------>>   [  OK  ]     min value from loadcase=  2 >>> Effort = 0.11456 <<<<
+Failure(STR) S12 max= 67 ----  Allowed S12 Max (Tensile)    = 33.5 ------> Model S12 Max (Tensile)    = 22.42 ------>>   [  OK  ]     max value from loadcase=  4 >>> Effort = 0.33463 <<<<
+Failure(STR) S12 min= -67 ----  Allowed S12 Min (Compressive)= -33.5 ------> Model S12 Min (Compressive)= -23.14 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.34537 <<<<
+*********************************************************************
+************************MEMBER OUTPUT*********************************************
+eigenPerformanceError=6.1843
+materialRelativeDifferenceError=0
+s11Error= 99.8931
+s22Error= 2.476
+s12Error= 1.5465e-61
+objectiveVal= 100.115
+*********************************************************************
+Load case 1 effort:     S11        S22       S12 
+   tensile:           0.24565     0.48633     0.22836
+   compressive:       0.16035    0.042381     0.22881
+Load case 2 effort:     S11        S22       S12 
+   tensile:           0.1978     0.38163     0.23313
+   compressive:       0.46279     0.11456     0.23657
+Load case 3 effort:     S11        S22       S12 
+   tensile:           0.23776     0.45918     0.29239
+   compressive:       0.11794    0.049327     0.27567
+Load case 4 effort:     S11        S22       S12 
+   tensile:           0.20401     0.39449     0.33463
+   compressive:       0.49684      0.0985     0.34537
+***********************************************************************************
+D0C00B4F0F86A10B218050E63E570D3C
+***********************************************************************************
+Member-14-Generation-29
+S11     S22     S12
+
+MaxStressData =
+
+  574.8000   24.2100   14.6500
+  460.0000   18.7500   15.7200
+  550.5000   22.5900   19.6600
+  485.2000   20.7100   22.4100
+
+S11     S22     S12
+
+MinStressData =
+
+ -158.0000   -6.8660  -13.6500
+ -455.8000  -18.4000  -15.9200
+ -115.6000    2.4200  -18.5400
+ -486.1000  -16.4800  -22.8300
+
+***********************************************************************************
+G29ID280257430DAF0500B8DD6E4143D84C6
+***********************************************************************************
+************************FAILURE LIMITS*********************************************
+Failure(STR) S11 max= 2320 ----  Allowed S11 Max (Tensile)    = 1160 ------> Model S11 Max (Tensile)    = 574.8 ------>>  [  OK  ]      max value from loadcase=  1 >>> Effort = 0.24776 <<<<
+Failure(STR) S11 min= -981 ----  Allowed S11 Min (Compressive)= -490.5 ------> Model S11 Min (Compressive)= -486.1 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.49551 <<<<
+Failure(STR) S22 max= 49 ----  Allowed S22 Max (Tensile)    = 24.5 ------> Model S22 Max (Tensile)    = 24.21 ------>>   [  OK  ]     max value from loadcase=  1 >>> Effort = 0.49408 <<<<
+Failure(STR) S22 min= -160 ----  Allowed S22 Min (Compressive)= -80 ------> Model S22 Min (Compressive)= -18.4 ------>>   [  OK  ]     min value from loadcase=  2 >>> Effort = 0.115 <<<<
+Failure(STR) S12 max= 67 ----  Allowed S12 Max (Tensile)    = 33.5 ------> Model S12 Max (Tensile)    = 22.41 ------>>   [  OK  ]     max value from loadcase=  4 >>> Effort = 0.33448 <<<<
+Failure(STR) S12 min= -67 ----  Allowed S12 Min (Compressive)= -33.5 ------> Model S12 Min (Compressive)= -22.83 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.34075 <<<<
+*********************************************************************
+************************MEMBER OUTPUT*********************************************
+eigenPerformanceError=6.2646
+materialRelativeDifferenceError=0
+s11Error= 99.5989
+s22Error= 98.34
+s12Error= 1.5133e-63
+objectiveVal= 140.1069
+*********************************************************************
+Load case 1 effort:     S11        S22       S12 
+   tensile:           0.24776     0.49408     0.21866
+   compressive:       0.16106    0.042912     0.20373
+Load case 2 effort:     S11        S22       S12 
+   tensile:           0.19828     0.38265     0.23463
+   compressive:       0.46463       0.115     0.23761
+Load case 3 effort:     S11        S22       S12 
+   tensile:           0.23728     0.46102     0.29343
+   compressive:       0.11784    0.049388     0.27672
+Load case 4 effort:     S11        S22       S12 
+   tensile:           0.20914     0.42265     0.33448
+   compressive:       0.49551       0.103     0.34075
+***********************************************************************************
+D280257430DAF0500B8DD6E4143D84C6
+***********************************************************************************
+Member-15-Generation-29
+S11     S22     S12
+
+MaxStressData =
+
+  558.9000   23.3200   15.0700
+  455.8000   18.5500   15.6700
+  548.6000   22.4900   19.3100
+  478.7000   20.6200   22.7900
+
+S11     S22     S12
+
+MinStressData =
+
+ -157.1000   -6.8010  -15.2000
+ -451.1000  -18.2100  -15.7400
+ -114.2000    2.4120  -18.6700
+ -483.0000  -16.3600  -22.9200
+
+***********************************************************************************
+G29ID384A333DE2D05024C421E4609D22692
+***********************************************************************************
+************************FAILURE LIMITS*********************************************
+Failure(STR) S11 max= 2320 ----  Allowed S11 Max (Tensile)    = 1160 ------> Model S11 Max (Tensile)    = 558.9 ------>>  [  OK  ]      max value from loadcase=  1 >>> Effort = 0.24091 <<<<
+Failure(STR) S11 min= -981 ----  Allowed S11 Min (Compressive)= -490.5 ------> Model S11 Min (Compressive)= -483 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.49235 <<<<
+Failure(STR) S22 max= 49 ----  Allowed S22 Max (Tensile)    = 24.5 ------> Model S22 Max (Tensile)    = 23.32 ------>>   [  OK  ]     max value from loadcase=  1 >>> Effort = 0.47592 <<<<
+Failure(STR) S22 min= -160 ----  Allowed S22 Min (Compressive)= -80 ------> Model S22 Min (Compressive)= -18.21 ------>>   [  OK  ]     min value from loadcase=  2 >>> Effort = 0.11381 <<<<
+Failure(STR) S12 max= 67 ----  Allowed S12 Max (Tensile)    = 33.5 ------> Model S12 Max (Tensile)    = 22.79 ------>>   [  OK  ]     max value from loadcase=  4 >>> Effort = 0.34015 <<<<
+Failure(STR) S12 min= -67 ----  Allowed S12 Min (Compressive)= -33.5 ------> Model S12 Min (Compressive)= -22.92 ------>>   [  OK  ]     min value from loadcase=  4 >>> Effort = 0.34209 <<<<
+*********************************************************************
+************************MEMBER OUTPUT*********************************************
+eigenPerformanceError=5.3862
+materialRelativeDifferenceError=0
+s11Error= 91.331
+s22Error= 7.6634e-05
+s12Error= 5.7984e-63
+objectiveVal= 91.4897
+*********************************************************************
+Load case 1 effort:     S11        S22       S12 
+   tensile:           0.24091     0.47592     0.22493
+   compressive:       0.16014    0.042506     0.22687
+Load case 2 effort:     S11        S22       S12 
+   tensile:           0.19647     0.37857     0.23388
+   compressive:       0.45984     0.11381     0.23493
+Load case 3 effort:     S11        S22       S12 
+   tensile:           0.23647     0.45898     0.28821
+   compressive:       0.11641    0.049224     0.27866
+Load case 4 effort:     S11        S22       S12 
+   tensile:           0.20634     0.42082     0.34015
+   compressive:       0.49235     0.10225     0.34209
+***********************************************************************************
+D384A333DE2D05024C421E4609D22692
+***********************************************************************************
+
+*****	GENERATION #29 simulation complete	***********
+GEN: 29 | Obj: 1.587889 | RCYCLE: 30.589489 %

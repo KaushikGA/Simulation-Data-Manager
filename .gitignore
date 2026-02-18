@@ -1,0 +1,23 @@
+# C# Build results
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.pdb
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Database (Local)
+*.db
+*.sqlite
+
+# VS Code
+.vscode/
